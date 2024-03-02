@@ -3,19 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pop-up</title>
+<title>Pop-up Example</title>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<input type="checkbox" id="popup-toggle">
+<button id="openBtn">Open Pop-up</button>
+
 <div id="popup" class="popup">
   <div class="popup-content">
-    <label for="popup-toggle" class="close">&times;</label>
-    <h2>Pop-up</h2>
-    <p>Conteúdo do pop-up aqui.</p>
+    <span class="close" id="closeBtn">&times;</span>
+    <p>This is a pop-up!</p>
   </div>
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

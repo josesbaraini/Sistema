@@ -1,19 +1,21 @@
 body{
-    text-align: center;
     background-color: black;
+
+
+
 }
 
 h1{
     
     color: white;
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 4px white;
     -webkit-text-stroke: 1px black;
 }
 
 .alarm{
-    line-height: 3;
+    display: block;
+    line-height: 2;
     border-radius: 5%;
     background-color: rgb(0, 102, 255);
     height: 200px;
@@ -24,8 +26,8 @@ h1{
 
 }
 
-.aviso{
-    line-height: 0;
+.alarm-content{
+    line-height: 0.1;
     color: white;
     font-size: 30px;
     text-align: center;
@@ -33,6 +35,8 @@ h1{
     text-shadow: 2px 2px 4px white;
     -webkit-text-stroke: 1px black;
 
+
+    
 
 }
 
@@ -42,6 +46,20 @@ h1{
 .jogador{
     
     color: yellow;
+
+
+}
+
+.close {
+    line-height: 1;
+    text-indent: 95%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+.palavra1{
+    line-height: 2;
+
 
 
 }

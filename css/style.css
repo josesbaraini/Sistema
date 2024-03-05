@@ -17,7 +17,7 @@ h1{
     display: block;
     line-height: 2;
     border-radius: 5%;
-    background-image: url("sysalert.png");
+    background-image: url("../img/sysalert.png");
     background-size: contain;
     background-position: center;
     background-size: 100% 100%;

@@ -1,8 +1,3 @@
-document.getElementById("openBtn").addEventListener("click", function() {
-    document.getElementById("popup").style.display = "block";
+document.getElementById("closeBtn").addEventListener("click", function() {
+    document.getElementById("alarm").style.display = "none";
   });
-  
-  document.getElementById("closeBtn").addEventListener("click", function() {
-    document.getElementById("popup").style.display = "none";
-  });
-  

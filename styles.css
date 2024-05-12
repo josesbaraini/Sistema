@@ -71,7 +71,7 @@ button:hover {
 
 .popup-content {
     font-size: 24px;
-    background-image: url("sysalert.png");
+    background-image: url("/img/sysalert.png");
     background-size: contain;
     background-position: center;
     background-size: 100% 100%;

@@ -15,17 +15,17 @@ if (isset($_POST["usuario"]) && !empty($_POST["usuario"]) && isset($_POST["senha
             header("Location: index.php");
             
         } else{
-            header("Location: html.php");
+            header("Location: index.html");
         }
     }else{
-        header("Location: html.php");
+        header("Location: index.html");
     }
         
 
 
 
 }else {
-    header("Location: html.php");
+    header("Location: index.html");
 }
 
 

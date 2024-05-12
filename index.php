@@ -27,5 +27,5 @@ if (isset($_SESSION["iduser"]) && !empty($_SESSION["iduser"])):?>
 </html>
 
 
-<?php else: header("Location: html.php"); endif;
+<?php else: header("Location: index.html"); endif;
 ?>

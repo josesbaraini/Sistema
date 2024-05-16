@@ -1,6 +1,6 @@
 <?php
 $localhost = "roundhouse.proxy.rlwy.net:33030";
-$user = "root";
+$user = "";
 $passw = "PVOHCUHcTVRdDkZDzyoIxQgQubBmAtiT";
 $banco = "railway";
 

@@ -1,12 +1,4 @@
-<?php
-require "verifica.php";
 
-
-
-
-
-
-if (isset($_SESSION["iduser"]) && !empty($_SESSION["iduser"])):?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,14 +13,14 @@ if (isset($_SESSION["iduser"]) && !empty($_SESSION["iduser"])):?>
         <div class="nomeclasseraca">
             <h1 class=nome><?php echo $nomeUser; ?></h1>
             <div class="classerace">
-                <p class="raca"><?php echo $raceUser; ?></p>
+                <p class="raca"></p>
                 <p class="classe"></p>
             </div>
         </div>
         <div class="sair"><a href="logout.php" >SAIR</a></div>
     </header>
         <div class="input-group" >
-          <input type="text" id="inputComand">
+          <input type="text" id="inputComand" name="usuario">
         </div>
 
 
@@ -53,26 +45,26 @@ if (isset($_SESSION["iduser"]) && !empty($_SESSION["iduser"])):?>
                 </div>
             <div class="stat-lines">
                 <P class="sys-font">CLASSE: <?php echo $classUser; ?></P>
-                <p class="sys-font">HP:<?php echo $hp; ?></p>
+                <p class="sys-font">HP:???</p>
             </div>
             <div class="stat-lines">
                 <P class="sys-font">TÍTULO: <?php echo $perstitu; ?></P>
-                <P class="sys-font">MP:<?php echo $mp; ?></P>
+                <P class="sys-font">MP:??</P>
             </div>
         </div>
 
         <div class="info" id="estatisticas-atributos">
             <div class="att-lines">
-                <p class="sys-font">FORÇA: <?php echo $str; ?></p>
-                <P class="sys-font">SABEDORIA: <?php echo $wis; ?></P>
+                <p class="sys-font">FORÇA: ??</p>
+                <P class="sys-font">SABEDORIA: ??</P>
             </div>
             <div class="att-lines">
-                <P class="sys-font">INTELIGENCIA: <?php echo $int; ?></P>
-                <p class="sys-font">CONSTITUIÇÃO: <?php echo $con; ?></p>
+                <P class="sys-font">INTELIGENCIA: ??</P>
+                <p class="sys-font">CONSTITUIÇÃO: ??</p>
             </div>
             <div class="att-lines">
-                <P class="sys-font">CARISMA: <?php echo $cha; ?></P>
-                <P class="sys-font">DEXTREZA: <?php echo $dex; ?></P>
+                <P class="sys-font">CARISMA: ??</P>
+                <P class="sys-font">DEXTREZA: ??</P>
             </div>
         </div>
 
@@ -84,7 +76,3 @@ if (isset($_SESSION["iduser"]) && !empty($_SESSION["iduser"])):?>
     <script src="scripts/script-painel.js" > </script>
 </body>
 </html>
-
-
-<?php else: header("Location: index.html"); endif;
-?>
